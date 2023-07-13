@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME PAGE</title>
+  <style>
+ h1{
+  text-align: center;
+ }
+
+.member {
+  margin-bottom: 20px;
+  display: inline-block; 
+}
+ img { width: 100%;  object-fit: cover; }
+.hot{
+
+  border-style: double;
+border-radius: 10px;  width: 100%;
+  object-fit: cover;
+  height: 500px;}
+ 
+/
+section ul { justify-content: flex-start; }
+
+section li { margin: 10px; } 
+ body, ul { margin: 0; padding: 0; }
+ 
+
+nav ul { list-style-type: none; background-color: #f5f5f5; padding: 10px; }
+ ul{ text-decoration:none ;}
+nav ul li { display: inline; margin-right: 10px; text-decoration: none;}
+
+nav ul li a { text-decoration: none; color: #333; padding: 5px; }
+
+.member img {
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; 
+ 
+}section h2 { text-align: center; margin: 20px 0; }
+
+section ul { display: flex; justify-content: center; flex-wrap: wrap; list-style-type: none; margin: 0; padding: 0; }
+
+section li { text-align: center; margin: 20px; }
+
+section a { text-decoration: none; color: #333; }
+
+ section:nth-child(3) { background-color: #f5f5f5; padding: 20px; }
+footer { background-color: #f5f5f5; padding: 10px; text-align: center; }
+
+footer ul { list-style-type: none; }
+section ul.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as desired */
+  grid-gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section ul.image-grid li {
+  text-align: center;
+}
+
+section ul.image-grid li img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+
+section {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+section h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+}
+body{
+  background-color:darkkhaki;
+}
+
+</style>
+</head>
+<body>
+  <h1>HOME PAGE</h1>
+  <nav><ul>
+    <li><a href="one.html"><strong>home</strong></a></li>
+    <li><a href="two.html"><strong>group members</strong></a></li>
+    <li><a href="three.html"><strong>Course summary</strong></a></li>
+  </ul></nav>
+  
+  <img class="hot" src="IMG-20230710-WA0020.jpg" alt="building">
+  <div id="groupsection">
+
+    <section>  <div class="member"><h2>Group members</h2>
+  <li>
+    <a href="dein.html"><p>Anabraba Dein Emmaneul</p><img src="photo_2023-07-13_19-01-48.jpg" alt="dein"></a>
+  </li></div> 
+  </li> <div class="member"><li>
+    <a href="david.HTML"><p>Fregene David Oritsetimeyin</p><img src="photo_2023-07-13_19-01-41.jpg" alt="david"></a></div>
+  
+ </section>
+  </div>
+  
+  </div>
+  <section>
+    <h2>Image Grid</h2>
+    <ul class="image-grid">
+    
+      <li><img src="photo_2023-07-13_19-26-15.jpg" alt="Image 2"></li>
+      <li><img src="photo_2023-07-13_19-26-22.jpg" alt="Image 3"></li>
+      <!-- Add more <li> elements for additional images -->
+    </ul>
+  </section>
+
+  <footer><ul><li>Anabraba Dein Emmaneul-22/0209</li>
+  <li>Fregene David Oritsetimeyin-22/0011</li>
+  <li></li>
+</ul></footer>
+</body>
+</html>
